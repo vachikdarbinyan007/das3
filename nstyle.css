@@ -1,0 +1,85 @@
+ body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://th.bing.com/th/id/R.2931b109c7bbc5a1c0aa3a36d1452503?rik=UF9Ew29KYGqU3A&pid=ImgRaw&r=0");
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#container{
+    width: 80%;
+    height: 80%;
+    background-color: rgba(255, 105, 105, 0.8);
+    backdrop-filter: blur(5px);
+    border-radius: 35px;
+    box-shadow: 3px 3px 3px red;
+}
+#info,#text{
+    width: 90%;
+    height: 47%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+#nearinfo{
+    width: 60%;
+    height: 100%;
+    border-radius: 35px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    font-size: 4vw;
+}
+#text{
+  display: block;
+  border: solid;
+  border-radius: 20px;
+}
+#art{
+    width: 100%;
+    height: 60%;
+    font-size: 2vmax;
+    overflow-y: scroll;
+}
+
+#logindiv,#registration{
+    width: 39%;
+    height: 80%;
+    border: solid;
+    background-color: rgba(255, 105, 105, 0.8);
+    backdrop-filter: blur(5px);
+    border-radius: 35px;
+    box-shadow: 3px 3px 3px rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#registration{
+    display: block;
+}
+.form{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+} 
+.form>input,#logindiv>input{
+    width: 80%;
+    height: 30px;
+    outline: none;
+}
